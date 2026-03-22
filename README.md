@@ -38,11 +38,14 @@ These genes are strong candidates for further investigation in areas such as:
 - and potential genome editing targets  
 
 While this analysis does not directly evaluate CRISPR strategies, it provides a data-driven starting point for identifying biologically relevant genes that could be studied in such contexts.
+## Example Output
 
+![Top genes with pathogenic variants](figures/clinvar_top_genes.png)
 
 
 
 This analysis uses `pandas.read_csv()` to load the dataset.
+
 ---
 
 ## Project Structure
