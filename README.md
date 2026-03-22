@@ -39,6 +39,10 @@ These genes are strong candidates for further investigation in areas such as:
 
 While this analysis does not directly evaluate CRISPR strategies, it provides a data-driven starting point for identifying biologically relevant genes that could be studied in such contexts.
 
+
+
+
+This analysis uses `pandas.read_csv()` to load the dataset.
 ---
 
 ## Project Structure
