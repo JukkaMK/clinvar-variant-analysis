@@ -1,5 +1,10 @@
 # ClinVar Variant Analysis
 
+This project explores pathogenic variants from the ClinVar database to identify genes most frequently associated with disease.
+
+The goal is to demonstrate how simple data analysis workflows can reveal biologically meaningful patterns from public genomic datasets.
+
+
 This project explores clinically significant genetic variants from the ClinVar database and demonstrates how publicly available data can be used to identify genes frequently associated with disease.
 
 Rather than focusing on building a complex bioinformatics pipeline, the goal is to provide a clear and interpretable analysis that connects variant-level information to biologically meaningful insights.
