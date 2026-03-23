@@ -48,6 +48,8 @@ The most frequently observed genes in this analysis are well-established contrib
 
 The analysis follows a straightforward and transparent workflow implemented in Python:
 
+Data source: ClinVar (NCBI), a public archive of relationships among human genetic variants and phenotypes.
+
 - ClinVar variant data is loaded and filtered
 - Pathogenic variants are selected
 - Variant counts are aggregated at the gene level
@@ -80,3 +82,11 @@ Future extensions of this project could include integrating additional clinical 
 ## Key Takeaway
 
 Even a lightweight and interpretable analysis of public genomic data can highlight biologically important genes and provide a foundation for more advanced studies in genetics and gene therapy.
+
+
+## References
+
+ClinVar database: https://www.ncbi.nlm.nih.gov/clinvar/
+OMIM (Online Mendelian Inheritance in Man): https://www.omim.org/
+GeneReviews: https://www.ncbi.nlm.nih.gov/books/NBK1116/
+NCBI Gene: https://www.ncbi.nlm.nih.gov/gene/
