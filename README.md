@@ -1,5 +1,7 @@
 # ClinVar Variant Analysis
 
+Author Jukka Kiuru
+
 Pathogenic genetic variants provide critical insights into disease mechanisms and potential therapeutic targets. This project examines publicly available ClinVar data to identify genes that are most frequently associated with pathogenic variants, demonstrating how simple data analysis workflows can reveal biologically meaningful patterns.
 
 Rather than focusing on building a complex bioinformatics pipeline, the emphasis is on clarity, interpretability, and extracting relevant insights from real-world genomic data.
