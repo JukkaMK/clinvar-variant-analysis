@@ -10,6 +10,40 @@ Understanding which genes are disproportionately affected by pathogenic variants
 
 ClinVar is a widely used public database that aggregates information about genomic variation and its relationship to human health. By analyzing this dataset, it is possible to highlight genes that repeatedly appear in clinically relevant contexts.
 
+## Biological Context: Gene Function, Mutations, and Disease Mechanisms
+
+The most frequently observed genes in this analysis are well-established contributors to human disease. Below is a concise overview of their genomic location, mutation types, and biological impact.
+
+- **PAH (Chr 12)**  
+  Mutations are typically missense variants that reduce enzymatic activity. These arise from point mutations in the coding sequence. Impaired phenylalanine hydroxylase function leads to phenylalanine accumulation, causing neurotoxicity in phenylketonuria (PKU).
+
+- **APC (Chr 5)**  
+  Frequently affected by truncating mutations (nonsense or frameshift), often arising from replication errors or inherited variants. Loss of APC function disrupts Wnt signaling regulation, promoting uncontrolled cell proliferation and colorectal tumor formation.
+
+- **HMBS (Chr 11)**  
+  Mutations include missense and splicing defects that impair enzyme stability. These mutations arise from nucleotide substitutions affecting heme biosynthesis. The resulting enzymatic deficiency leads to accumulation of toxic intermediates, causing acute intermittent porphyria.
+
+- **NF1 (Chr 17)**  
+  Typically affected by loss-of-function mutations (nonsense, frameshift, or deletions). These mutations impair neurofibromin, a regulator of Ras signaling. Loss of regulation leads to increased cell growth and tumor development in neurofibromatosis type 1.
+
+- **VWF (Chr 12)**  
+  Mutations include missense and structural variants affecting protein folding or secretion. These arise from point mutations or larger genomic rearrangements. Defective von Willebrand factor impairs platelet adhesion, leading to bleeding disorders.
+
+- **HEXA (Chr 15)**  
+  Commonly affected by missense or insertion mutations. These mutations disrupt lysosomal enzyme activity. Accumulation of GM2 gangliosides in neurons leads to progressive neurodegeneration in Tay–Sachs disease.
+
+- **LPL (Chr 8)**  
+  Mutations are often missense variants that reduce enzyme activity or stability. These arise from single nucleotide changes affecting lipid metabolism. Impaired lipoprotein lipase function leads to triglyceride accumulation and metabolic disease.
+
+- **CYP17A1 (Chr 10)**  
+  Mutations include missense and loss-of-function variants affecting steroidogenic enzymes. These arise from coding sequence alterations. Disrupted hormone synthesis leads to endocrine disorders such as congenital adrenal hyperplasia.
+
+- **ARSA (Chr 22)**  
+  Mutations are typically missense variants affecting enzyme folding and activity. These arise from nucleotide substitutions. Loss of arylsulfatase A function causes accumulation of sulfatides, leading to demyelination in metachromatic leukodystrophy.
+
+- **GBA1 (Chr 1)**  
+  Commonly affected by missense mutations that impair lysosomal enzyme function. These mutations arise from point mutations in coding regions. Reduced glucocerebrosidase activity leads to lipid accumulation, causing Gaucher disease and increasing Parkinson’s disease risk.
+
 ## Approach
 
 The analysis follows a straightforward and transparent workflow implemented in Python:
