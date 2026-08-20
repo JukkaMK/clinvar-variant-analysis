@@ -67,7 +67,7 @@ These genes represent strong candidates for further investigation in areas such 
 
 ## Example Output
 
-![Top genes with pathogenic variants](figures/clinvar_top_genes.png)
+![Top genes with pathogenic or likely pathogenic ClinVar variants](figures/top15_pathogenic_genes.png)
 
 The visualization highlights the top genes most frequently associated with pathogenic variants, providing an intuitive overview of their relative importance.
 
@@ -75,8 +75,7 @@ The visualization highlights the top genes most frequently associated with patho
 
 - `notebook/01_clinvar_analysis.ipynb` – main analysis notebook  
 - `data/variant_summary.txt.gz` – ClinVar dataset (not tracked in Git)  
-- `figures/clinvar_top_genes.png` – generated visualization  
-
+- `figures/top15_pathogenic_genes.png` – generated visualization of the top 15 genes with pathogenic or likely pathogenic ClinVar variants
 ## Future Work
 
 Future extensions of this project could include integrating additional clinical annotations, incorporating variant pathogenicity scores, and applying more advanced statistical or machine learning methods to prioritize candidate genes.
