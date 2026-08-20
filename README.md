@@ -82,7 +82,7 @@ Future extensions of this project could include integrating additional clinical 
 
 ## Key Takeaway
 
-Even a lightweight and interpretable analysis of public genomic data can highlight biologically important genes and provide a foundation for more advanced studies in genetics and gene therapy.
+This project demonstrates how public ClinVar data can be processed and analyzed to identify patterns in reported pathogenic and likely pathogenic variants across genes. The analysis provides a reproducible foundation for further investigation using additional clinical annotations and more advanced statistical or bioinformatics methods.
 
 
 ## References
