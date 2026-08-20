@@ -61,15 +61,15 @@ This minimal approach illustrates how even simple data processing steps can unco
 
 ## Results and Interpretation
 
-The results show that pathogenic variants are not evenly distributed across genes. Instead, certain genes appear much more frequently, reflecting their importance in disease-related processes.
+The results show that pathogenic and likely pathogenic variants are not evenly distributed across genes. Some genes contain substantially more reported variants than others.
 
-These genes represent strong candidates for further investigation in areas such as disease mechanism studies, functional genomics, and therapeutic development. While this analysis does not directly evaluate gene editing strategies, the identified genes may serve as potential targets for future research, including applications in CRISPR-based therapies.
+However, a high number of ClinVar variants does not necessarily indicate greater biological or therapeutic importance. Variant counts can be influenced by factors such as gene size, disease association, research activity, and the extent of clinical genetic testing. The results should therefore be interpreted primarily as a description of patterns in the ClinVar dataset rather than as a direct ranking of genes by biological importance or therapeutic potential.
 
 ## Example Output
 
 ![Top genes with pathogenic or likely pathogenic ClinVar variants](figures/top15_pathogenic_genes.png)
 
-The visualization highlights the top genes most frequently associated with pathogenic variants, providing an intuitive overview of their relative importance.
+The visualization shows the 15 genes with the highest numbers of unique pathogenic or likely pathogenic variants in the analyzed ClinVar dataset.
 
 ## Project Structure
 
